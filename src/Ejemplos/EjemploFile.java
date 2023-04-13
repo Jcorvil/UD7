@@ -17,7 +17,7 @@ public class EjemploFile {
             fichero2.createNewFile();
 
         //FileWriter permite escribir en un fichero
-            //Si se le pone "true" continua escribiendo después del contenido. Si se le pone "false" sobreescribe.
+            //Si se le pone "true" continúa escribiendo después del contenido. Si se le pone "false" sobreescribe.
         FileWriter escritura = new FileWriter(fichero2, true);
         //Escribe dentro de un fichero
         escritura.write(" Jorge");
