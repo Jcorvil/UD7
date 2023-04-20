@@ -33,6 +33,7 @@ public class Ej7_2Ficheros {
             buffer.write("Julián \n");
             buffer.write("Johnnatan \n");
             buffer.write("Juanma \n");
+            buffer.write("Juan Jesús \n");
             buffer.write("Jossie \n");
             buffer.write("J.M. Saborido \n");
             buffer.write("Pablo \n");
