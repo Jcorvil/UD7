@@ -16,7 +16,6 @@ public class EjercicioSerializar {
 
         FileInputStream archivo2 = new FileInputStream("C:\\Users\\1DAW_2223_18\\Desktop\\nombreOculto.bin");
         ObjectInputStream ois = new ObjectInputStream(archivo2);
-        
         Persona osSalida = (Persona)ois.readObject();
 
         System.out.println("El nombre es " + osSalida.nombre + " " + osSalida.apellidos);

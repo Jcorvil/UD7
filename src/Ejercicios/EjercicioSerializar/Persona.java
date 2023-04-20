@@ -12,7 +12,7 @@ public class Persona implements Serializable {
 
     public Persona(){
         this.nombre = "El";
-        this.apellidos = "Fari";
+        this.apellidos = " Fari";
         this.edad = 69;
     }
 
